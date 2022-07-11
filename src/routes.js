@@ -9,7 +9,7 @@ function RoutesApp () {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path = "/" element = { <Home /> }/>
+                <Route path = "/" element = { <Home /> } />
                 <Route path = "/film/:film_id" element = { <Film /> } />
                 <Route path = "*" element = { <Error /> } />
             </Routes>
